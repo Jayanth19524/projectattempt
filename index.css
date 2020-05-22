@@ -1,3 +1,8 @@
+html{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
 body{
     width:100%;
     height:100%;
@@ -48,13 +53,15 @@ background-size: cover;
     
 }
 .banner_content{
-position: relative;
+position: center;
+
 
 padding-top: 6%;
 padding-bottom: 6%; 
 overflow:hidden;
-margin-bottom: 12%; 
-margin-left: 270px;
+margin-bottom: 2%; 
+margin:auto;
+
 background-color: rgba(0, 0, 0, 0.7); 
 max-width: 560px;
 color: wheat;
@@ -74,6 +81,7 @@ text-decoration:none;
     width:90%; 
     margin:auto; 
     overflow:hidden;
+    
 }
 .items{
     width:30%;
@@ -86,6 +94,7 @@ border: 1px solid #ddd;
 border-radius: 4px; 
 float:left; 
 margin-left:1%;
+
 }
 .thumbnail{
     display: block; 
@@ -97,4 +106,18 @@ margin-left:1%;
     padding:0px 10px 10px; 
     font-weight: bold; 
     text-align: center;
+   text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+form{
+    padding:50px;
+    margin:auto;
+    min-height:1000px;
+    background-image:url(intro-bg_1.jpg);
+    color:wheat;
+    font-weight:bolder;
+    font-size:50px;
+    
 }
